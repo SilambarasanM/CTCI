@@ -42,7 +42,10 @@ public class Question1 {
 	
 	public static void main(String[] args) {
 		String str = "abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-		System.out.println(isUnique(str));
+		if (isUnique(str))
+			System.out.println("The given string is unique.");
+		else
+			System.out.println("The given string is not unique.");
 	}
 	
 }
