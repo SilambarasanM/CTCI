@@ -25,6 +25,7 @@ public static void URLify(char[] charArray, char[] copyChar, int n){
 			copyChar[j++] = charArray[i];
 		i++;
 	}
+	System.out.print("URLified String: ");
 	System.out.println(copyChar);
 }
 }
