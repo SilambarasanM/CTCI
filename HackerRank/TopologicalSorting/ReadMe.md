@@ -7,11 +7,17 @@ The last line contains a permutation of  distinct space-separated positive integ
 #Sample Input
 
 5 5
+
 1 3
+
 2 3
+
 3 4
+
 2 5
+
 5 4
+
 1 2 5 3 4
 
 #Sample Output
